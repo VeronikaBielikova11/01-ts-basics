@@ -1,0 +1,7 @@
+function getFirstElement<T>(array: T[]): T {
+  return array[0];
+}
+
+const firstNumber = getFirstElement<number>([1, 2, 3]);
+const firstString = getFirstElement<string>(['a', 'b', 'c']);
+const firstBoolean = getFirstElement<boolean>([true, false, true]);
